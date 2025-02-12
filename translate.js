@@ -3,7 +3,7 @@ async function translateText() {
     const targetLanguage = document.getElementById('languageSelect').value;
 
     if (text) {
-        const url = `https://translation.googleapis.com/language/translate/v2?key=AIzaSyD4HjBVAbKAWC5wf98ay1b6iveuolmmDCc`;
+        const url = `https://translation.googleapis.com/language/translate/v2?key=AIzaSyDXRDnC7H_S8N68Se43sLhKtj-_u_v1ujg`;
         const response = await fetch(url, {
             method: 'POST',
             headers: {
